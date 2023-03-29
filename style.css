@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	font-size: 1.5em;
+	background-color: #e0e0e0;
+}
+
+section {
+	width: 50%;
+	margin: 0 auto;
+	padding: 50px;
+	text-align: center;
+	background-color: #c1c1c1;
+	display: flex;
+	flex-direction: column;
+	row-gap: 25px;
+	border-radius: 25px;
+	box-shadow: 11px 11px 19px -1px #383838bf;
+	-webkit-box-shadow: 11px 11px 19px -1px #383838bf;
+	-moz-box-shadow: 11px 11px 19px -1px #383838bf;
+}
+
+article {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	column-gap: 10px;
+}
+
+#comecar {
+	background: #069;
+	color: white;
+	font-size: 1.75em;
+	margin: 10px 0 10px 0;
+	padding: 8px 20px;
+	cursor: pointer;
+	border: 0;
+	border-radius: 25px;
+	transition: all 0.5s;
+	box-shadow: 5px 5px 15px -1px #383838bf;
+	-webkit-box-shadow: 5px 5px 15px -1px #383838bf;
+	-moz-box-shadow: 5px 5px 15px -1px #383838bf;
+}
+
+#comecar:hover {
+	background: rgb(1, 125, 187);
+	box-shadow: 5px 5px 10px -1px #000000bf;
+	-webkit-box-shadow: 5px 5px 10px -1px #000000bf;
+	-moz-box-shadow: 5px 5px 10px -1px #000000bf;
+}
+
+#controlar {
+	display: none;
+	font-size: 0.75em;
+	padding: 4px 10px;
+	border: 0;
+	border-radius: 7px;
+	box-shadow: 5px 5px 15px -1px #383838bf;
+	-webkit-box-shadow: 5px 5px 15px -5px #383838bf;
+	-moz-box-shadow: 5px 5px 15px -1px #383838bf;
+	cursor: pointer;
+}
+
+footer {
+	text-align: center;
+	color: #505050;
+}
